@@ -144,3 +144,6 @@ def calculate_bleu_score(references, hypothesis):
     smoothing_function = SmoothingFunction().method1
     bleu_score = sentence_bleu(references, hypothesis, smoothing_function=smoothing_function)
     return bleu_score
+
+def calculate_cosine_similarity(tensor1, tensor2):
+    return cosine_similarity(tensor1, tensor2)
