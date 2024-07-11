@@ -1,4 +1,4 @@
-# Semantic Diffusion for Image Transmission
+# Edge Diffusion Block: Dynamic Model with Enhanced Resolution in Semantic Communication
 
 We propose a semantic communication framework for image transmission, harnessing the capabilities of diffusion models within the context of generative AI. This project is designed to provide an efficient and high-fidelity solution for image transmission over noisy channels. The system is composed of three core components:
 
@@ -15,6 +15,11 @@ The channel layer simulates realistic noise and compression challenges that are 
 ### 3. Image Reconstruction Block
 
 Central to our image reconstruction process is a lightweight edge diffusion model. This model, endowed with zero-shot capabilities, is designed to restore high-fidelity images that are closely aligned with the original visual semantics. To achieve this, we utilize [diffusion super-resolution](https://huggingface.co/CompVis/ldm-super-resolution-4x-openimages) and [diffusion upscaling](https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler) techniques. These methods ensure that the transmitted images retain their quality and semantic integrity even after traversing noisy channels.
+
+## Semantic Diffusion Famework
+
+![Framework](semantic_diffusion_block_framework.png)
+
 
 ## Key Features
 
